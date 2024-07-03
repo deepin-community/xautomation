@@ -1,0 +1,14 @@
+Description: Fix a typo in the xte manpage.
+Author: Francisco Vilmar Cardoso Ruviaro <francisco.ruviaro@riseup.net>
+Last-Update: 2020-06-05
+
+--- xautomation-1.09.orig/xte.1
++++ xautomation-1.09/xte.1
+@@ -150,6 +150,6 @@ was written by Steve Slaven <bpk@hoopajo
+ .PP
+ The \fBstr\fP command doesn't support Unicode characters with more
+ than two bytes. Further, character composing sequences to generate
+-special charactes are limited to Multi_key plus two characters. The
++special characters are limited to Multi_key plus two characters. The
+ set of supported characters depends on the current keyboard layout.
+ 
