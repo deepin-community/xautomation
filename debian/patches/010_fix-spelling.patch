@@ -1,0 +1,15 @@
+Description: Fix a typo in the manpage.
+Author: Giovani Augusto Ferreira <giovani@riseup.net>
+Last-Update: 2016-12-31
+
+--- xautomation-1.09.orig/visgrep.1
++++ xautomation-1.09/visgrep.1
+@@ -93,7 +93,7 @@ at least one match was made.
+ no matches were made.
+ .TP
+ .B 2
+-an error occured.
++an error occurred.
+ 
+ .SH SEE ALSO
+ .BR pat2ppm (1),

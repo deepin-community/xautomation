@@ -1,0 +1,2 @@
+Test-Command: xvfb-run -a xte 'mousemove 0 0' 'mousedown 1' 'mouseup 1'
+Depends: @, xauth, xvfb
